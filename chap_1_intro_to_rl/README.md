@@ -2,7 +2,6 @@
 
 Given an agent, an environment, a set of actions, and the associated reward the agent can earn for each action, reinforcement learning allows us to learn a **policy**—a strategy the agent can use to maximize the expected cumulative reward over time.
 
----
 
 ## Assumptions
 
