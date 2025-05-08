@@ -1,9 +1,12 @@
-#### Introduction to Reinforcement Learning ####
+### Introduction to Reinforcement Learning ###
 
 Given an agent, an evironment, a set of actions and the associated reward an agent can earn for each action an agent can take in that environment, reinforcement learning allows us to learn a policy, a strategy an agent can use to maximize the expected cumulative reward the agent can earn over time. 
 
-Assumptions : 1. We assume that the enviroment is fully visible to the agent (variations do exist and we can see them later).
-              2. In the case of RL, data is typically not independent and identically distributed
+
+#### Assumptions ####   
+
+1. We assume that the enviroment is fully visible to the agent (variations do exist and we can see them later).
+2. In the case of RL, data is typically not independent and identically distributed
 
 Let's think about our second assumption for a bit. In supervised learning paradigm, we collect data points and the associated output and the output for one data point is independent of the output of the other data points since it's not affected by them. Can you say the same for RL? NO. Let's say that your are a rat in a maze and there are 2 distinct paths, one path full of traps(-ve rewards) with cheese(+ve reward) at the end. On the other path there are smaller cheese bits and a big cheese at the end. Let's see an actual example.
 
